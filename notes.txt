@@ -1,0 +1,8 @@
+personal porfolio
+ 
+1. Build porfolio
+- file
+- index.html
+- index.css
+2. nav bar
+- 2 links 
