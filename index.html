@@ -1,71 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My porfolio</title>
+    <title>Truong Nghia</title>
     <link rel="stylesheet" href="./resources/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./resources/marvelcss.css">
 </head>
-
 <body>
-    <!--navbar-->
-    <nav id="navbar" class="nav">
-        <ul class="nav-list">
-            <li><a href="#welcome-section">About</a></li>
-            <li><a href="#projects">Work</a></li>
-            <li><a href="https://github.com/m4rvelous252" id="profile-link" target="_blank">Contact</a></li>
-        </ul>
-    </nav>
-    <!--welcome-->
-    <div id="welcome-section">
-        <h1>Hi! I'm Truong Nghia</h1>
-        <p>A self taught developer</p>
-    </div>
-    <!--Projects-->
-    <div id="projects">
-        <h2>These are some of my projects</h2>
-        <div class="project-tile">
-            <a href="tribute-page-index.html" target="_blank" class="tile">
-                <img src="./resources/img/Untitled.png" alt="project" class="tile-img">
-                <p class="project-name">
-                    Sir Matt Busby Tribute
-                </p>
-            </a>
-            <a href="./game-index.html" target="_blank" class="tile">
-                <img src="./resources/img/tic tac toe.png" alt="project" class="tile-img">
-                <p class="project-name">
-                    Tick tac toe game
-                </p>
-            </a>
-            <a href="" target="_blank" class="tile">
-                <img src="./resources/img/oskar-yildiz-cOkpTiJMGzA-unsplash.jpg" alt="project" class="tile-img">
-                <p class="project-name">
-                    Pending...
-                </p>
-            </a>
+    <!-- This is a header -->
+    <header class="flex-row">
+        <img src="./resources/img/NghiaLogo.png" alt="TN" id="logo" class="header-item">
+        <nav>
+            <ul class="nav-bar flex-row">
+                <li class="nav-item"><a href="">Home</a></li>
+                <li class="nav-item"><a href="">About me</a></li>
+                <li class="nav-item"><a href="">Skills and Projects</a></li>
+                <li class="nav-item"><a href="">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
         </div>
-    </div>
-    <!--contact-->
-    <div class="contact">
-        <div class="contact-header">
-            <h2 class="contact-header-text">Want to work together?</h2>
-        </div>
-        <div class="contact-list">
-            <a href="https://www.facebook.com/nghia.t.nghia/" class="contact-link" target="_blank" id="facebook"><i class="fa fa-facebook"></i> Facebook</a>
-            <a href="https://www.instagram.com/justtuni/" class="contact-link" target="_blank" id="insta"><i class="fa fa-instagram"></i> Instagram</a>
-            <a href="https://github.com/m4rvelous252" class="contact-link" target="_blank" id="git"><i class="fa fa-github"></i> Github</a>
-            <a href="" class="contact-link" target="_blank" id="phone"><i class="fa fa-mobile"></i> 034.486.7700</a>
-            <a href="" class="contact-link" target="_blank" id="mail"><i class="fa fa-mail-forward"></i> truongnghia25298@gmail.com</a>
+    </header>
 
-
+    <!-- This is the Hero section-->
+    <div id="hero-section">
+        <div class="hero-text flex-col">
+            <h1> Youth Courage <span>Success</span></h1>
+            <p>I'm <span>Truong Nghia</span><br>
+            Hire me and you will get all three</p>
+            <button class="btn">Contact now</button>
         </div>
+        <img src="./resources/img/head-shot.png" alt="me" class="hero-img">
     </div>
 
+    <script src="./app.js"></script>
 </body>
-
 </html>
